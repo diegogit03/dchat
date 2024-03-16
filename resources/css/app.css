@@ -1,0 +1,16 @@
+html, body {
+    min-height: 100vh;
+}
+
+.auth-box {
+    min-width: 450px;
+}
+
+.contact {
+    height: 100%;
+}
+
+.contact:hover {
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
