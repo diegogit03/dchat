@@ -4,4 +4,4 @@ use Livewire\Volt\Volt;
 
 
 Volt::route('/', 'pages.login');
-Volt::route('/chat', 'pages.chat');
+Volt::route('/chat', 'pages.chat')->middleware('auth');
